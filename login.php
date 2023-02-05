@@ -148,8 +148,11 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
 
 
 
-                                        <input type="submit" value="Iniciar Sesion" class="btn btn-primary btn-user btn-block">
-                                       
+                                        <input type="submit" value="Iniciar Sesion" class="btn btn-success btn-user btn-block">
+                                        <hr>
+                                        <a href="index.html" class="btn btn-google btn-user btn-block">
+                                            <i class="fab fa-google fa-fw"></i> Inicia sesion con google
+                                        </a>
                                         
                                     </form>
                                     <hr>
@@ -157,7 +160,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
                                         <a class="small" href="forgot-password.html">Olvidaste tu contraseña?</a>
                                     </div>
                                     <div class="text-center">
-                                        <a class="small" href="insertar_interfez.php">create una cuenta!</a>
+                                        <a class="small" href="registro">create una cuenta!</a>
                                     </div>
                                 </div>
                             </div>
